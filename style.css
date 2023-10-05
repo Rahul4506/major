@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;600;700&family=Montserrat:wght@400;700&family=Poppins:wght@300&family=Raleway&display=swap');
+
+
+body{
+ font-family: 'IBM Plex mono',sans-serif;
+ /* background-color: #F4EAD5; */
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+.navbar
+{
+    /* background-image: linear-gradient(to right, #CCD6A6, #DAE2B6, #F4EAD5, #FFFBE9); */
+    /* background-image: linear-gradient(to right, #FFF5E0, #FF6969, #C70039, #141E46); */
+    /* background-image: linear-gradient(to right, #BFCCB5, #7C96AB, #B7B7B7, #EDC6B1); */
+    /* background-image: linear-gradient(to right, #D0C9C0, #EFEAD8, #6D8B74, #5F7161); */
+    /* background-image: linear-gradient(to right, #EDE4E0, #C8DBBE, #9F8772, #665A48); */
+    /* background-image: linear-gradient(to right, #DEFCF9, #CADEFC, #C3BEF0, #CCA8E9); */
+    /* background-image: linear-gradient(to right, #FCF8E8, #D4E2D4, #ECB390); */
+    /* background-image: linear-gradient(to right, #B7C4CF40, #EEE3CB, #D7C0AE, #967E76); */
+    background: rgb(254,229,29);
+background: linear-gradient(90deg, rgba(254,229,29,0.6896008403361344) 35%, rgba(0,189,255,0.3170518207282913) 100%);B86E, #EBE76C);
+
+}
+
+.navbar-brand
+{
+    padding-left: 100px;
+    font-weight: 700;
+    font-size: 30px;
+}
+.btn
+{
+    margin-right: 100px;
+    background-color: #D4E2D460;
+    border-style: none ;
+}
+.logo
+{
+    height: 100%;
+    width: 30px;
+}
+.signin
+{
+    padding: 20px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #D4E2D490;
+    color: black;
+}
+
+
+/* banner */
+
+#banner
+{
+    /* background-image: linear-gradient(to right, #CCD6A6, #DAE2B6, #F4EAD5, #FFFBE9);  */
+    /* background-image: linear-gradient(to right, #DEFCF9, #CADEFC, #C3BEF0, #CCA8E9); */
+    /* background-image: linear-gradient(to right, #ECEE81, #8DDFCB, #82A0D8, #EDB7ED); */
+    /* 
+    */
+    /* background-image: linear-gradient(to right,white ,#ED7B7B #EBE76C); */
+    background: rgb(254,229,29);
+background: linear-gradient(90deg, rgba(254,229,29,0.6896008403361344) 35%, rgba(0,189,255,0.3170518207282913) 100%);
+
+}
+
+.promotitle
+{
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 150px;
+    letter-spacing: -2px;
+    line-height: 1;
+}
+.tagline
+{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+/* <!-- services section --> */
+
+#services
+{
+    padding: 80px 0;
+}
+.service-img
+{
+    width: 100px;
+    margin-top: 20px;
+
+}
+.services
+{
+    padding: 20px;
+}
+.services h4
+{
+    padding: 5px;
+    margin-top: 25px;
+    font-weight: 600; 
+}
+.domimg
+{
+    width: 600px;
+    height: 500px;
+    margin-top: 20px;
+}
+#domestic
+{
+    padding: 80px 0px;
+    border-radius: 20px;
+    margin: 100px;
+    background-color: #D7C0AE60;
+    
+}
+
+#domestic h3
+{
+    margin-left: 30px;
+    margin-top: 200px;
+    font-weight: 650; 
+    font-size: 40px; 
+}
+#domestic p{
+    margin-left: 30px;
+}
+#shipservices
+{
+    padding: 80px 0px;
+    border-radius: 20px;
+    margin: 100px;
+    background-color:  #D7C0AE50;
+}
+
+/* <!-- promo --> */
+#promo
+{
+    padding: 80px 0;
+}
+.container h1{
+    margin-bottom: 50px;
+}
+
+/* mover */
+#shishtam{
+    /*background-color: red;*/
+    width: fit-content;
+    height: 100px;
+    
+    display: flex;
+    flex-direction: row;
+    overflow: visible;
+    gap: 30px;
+
+    padding: 10px;
+}
+.card{
+    background-color: rgb(242, 242, 242);
+    min-width: 200px;
+    height: 100px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.419);
+}
+.card img{
+    display: block;
+    width: 60%;
+}
+#promotwo
+{
+    margin: 200px 0 200px 0;
+}
+
+.col-md-3
+{
+    background-color: #CCD6A6;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 2px;
+}
+
+.cu_cards{
+    background-color: #B7C4CF;
+    border-radius: 10px;
+    padding: 35px;
+    border: 1px solid rgba(128, 128, 128, 0.382);
+}
+.grid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+.cu_cards h4{
+    padding:;
+    margin-top: 25px;
+    font-weight: 600;    
+}
+.py-5
+{
+    /* background-image: linear-gradient(to right, #CCD6A6, #DAE2B6, #F4EAD5, #FFFBE9); */
+    margin-top: 100px;
+}
+.boldtext
+{
+    font-weight: 700;
+    color: #967E76;
+}
+.gradienttext
+{
+    color: linear-gradient(to right, #B7C4CF50, #EEE3CB, #D7C0AE, #967E76);;
+}
