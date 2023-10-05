@@ -1,1 +1,2 @@
 hello
+purpose: Warehouse Management 
