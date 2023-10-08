@@ -11,17 +11,7 @@ body{
 
 .navbar
 {
-    /* background-image: linear-gradient(to right, #CCD6A6, #DAE2B6, #F4EAD5, #FFFBE9); */
-    /* background-image: linear-gradient(to right, #FFF5E0, #FF6969, #C70039, #141E46); */
-    /* background-image: linear-gradient(to right, #BFCCB5, #7C96AB, #B7B7B7, #EDC6B1); */
-    /* background-image: linear-gradient(to right, #D0C9C0, #EFEAD8, #6D8B74, #5F7161); */
-    /* background-image: linear-gradient(to right, #EDE4E0, #C8DBBE, #9F8772, #665A48); */
-    /* background-image: linear-gradient(to right, #DEFCF9, #CADEFC, #C3BEF0, #CCA8E9); */
-    /* background-image: linear-gradient(to right, #FCF8E8, #D4E2D4, #ECB390); */
-    /* background-image: linear-gradient(to right, #B7C4CF40, #EEE3CB, #D7C0AE, #967E76); */
-    background: rgb(254,229,29);
-background: linear-gradient(90deg, rgba(254,229,29,0.6896008403361344) 35%, rgba(0,189,255,0.3170518207282913) 100%);B86E, #EBE76C);
-
+    background-image: linear-gradient(to right, #CCD6A6, #DAE2B6, #F4EAD5, #FFFBE9);
 }
 
 .navbar-brand
@@ -33,7 +23,7 @@ background: linear-gradient(90deg, rgba(254,229,29,0.6896008403361344) 35%, rgba
 .btn
 {
     margin-right: 100px;
-    background-color: #D4E2D460;
+    background-color:#CCD6A6;
     border-style: none ;
 }
 .logo
@@ -46,7 +36,7 @@ background: linear-gradient(90deg, rgba(254,229,29,0.6896008403361344) 35%, rgba
     padding: 20px;
     border-radius: 10px;
     border-style: none;
-    background-color: #D4E2D490;
+    background-color: #F4EAD580;
     color: black;
 }
 
@@ -55,14 +45,7 @@ background: linear-gradient(90deg, rgba(254,229,29,0.6896008403361344) 35%, rgba
 
 #banner
 {
-    /* background-image: linear-gradient(to right, #CCD6A6, #DAE2B6, #F4EAD5, #FFFBE9);  */
-    /* background-image: linear-gradient(to right, #DEFCF9, #CADEFC, #C3BEF0, #CCA8E9); */
-    /* background-image: linear-gradient(to right, #ECEE81, #8DDFCB, #82A0D8, #EDB7ED); */
-    /* 
-    */
-    /* background-image: linear-gradient(to right,white ,#ED7B7B #EBE76C); */
-    background: rgb(254,229,29);
-background: linear-gradient(90deg, rgba(254,229,29,0.6896008403361344) 35%, rgba(0,189,255,0.3170518207282913) 100%);
+    background-image: linear-gradient(to right, #CCD6A6, #DAE2B6, #F4EAD5, #FFFBE9); 
 
 }
 
